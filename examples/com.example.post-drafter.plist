@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Replace /path/to/linkedin-post-drafter with your clone and check the python3 path. -->
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.example.post-drafter</string>
+  <key>ProgramArguments</key><array>
+    <string>/usr/bin/env</string>
+    <string>python3</string>
+    <string>/path/to/linkedin-post-drafter/drafter.py</string>
+    <string>poll</string>
+  </array>
+  <key>WorkingDirectory</key><string>/path/to/linkedin-post-drafter</string>
+  <key>EnvironmentVariables</key><dict>
+    <key>PATH</key><string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+  </dict>
+  <key>StartInterval</key><integer>60</integer>
+  <key>RunAtLoad</key><true/>
+  <key>StandardOutPath</key><string>/path/to/linkedin-post-drafter/bot.log</string>
+  <key>StandardErrorPath</key><string>/path/to/linkedin-post-drafter/bot.log</string>
+</dict>
+</plist>

@@ -1,0 +1,11 @@
+.env
+bot.log
+__pycache__/
+.DS_Store
+
+# Your drafts, ideas, profile and learned style stay local
+content/*
+!content/.gitkeep
+!content/drafts/
+content/drafts/*
+!content/drafts/.gitkeep

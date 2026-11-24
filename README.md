@@ -42,7 +42,7 @@ launchd / cron (every minute)
 
 ## Setup
 
-Requirements: Python 3.9+, [Claude Code](https://docs.claude.com/en/docs/claude-code) installed and logged in, a Telegram account. macOS or Linux (it uses `fcntl` file locks).
+Requirements: Python 3.10+, [Claude Code](https://docs.claude.com/en/docs/claude-code) installed and logged in, a Telegram account. macOS or Linux (it uses `fcntl` file locks).
 
 ```bash
 git clone https://github.com/cavadasA/linkedin-post-drafter.git
